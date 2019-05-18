@@ -1,7 +1,36 @@
+
+import udata from '../utils/data.js';
+var app = getApp();
+
 Page({
+  data:{
+    phonenunmber:"",
+  },
+  alertPhone() {
+    
+    // var nor=data.phonenumber;
+    var nor=app.globalData.wphone;
+    console.log(" make phone : "+nor +" ...");
+    my.makePhoneCall({ number: nor });
+  },
+  wlocation(){
+  my.openLocation({
+  // longitude: '121.549697',
+  // latitude: '31.227250',
+  longitude: '35.7155440181',
+  latitude: '117.9545464681',
+  name: '老王开锁',
+  address: '山东省临沂市蒙阴县南环路西段',
+});
+
+  },
+
   onLoad(query) {
     // 页面加载
     console.info(`Page onLoad with query: ${JSON.stringify(query)}`);
+    console.info(`Page onLoad with data: ${udata.phonenumber}`);
+
+
   },
   onReady() {
     // 页面加载完成

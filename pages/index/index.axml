@@ -10,8 +10,8 @@
   <view class="unlock-info">
    <label class="label1">老王开锁0539--4444448</label>
    <view class="lockdate"> <image class="img2" mode="scaleToFill" src="../../assets/shizhong.png"/><text>最晚营业至 22:00</text></view>
-    <view class="locksadress"> <image class="img3" mode="scaleToFill" src="../../assets/zuobiao.png"/><text class="adress">山东省临沂市蒙阴县南环路西段</text>
-    <image mode="scaleToFill" class="iphone" src="../../assets/dianhua.png"/>
+    <view class="locksadress"> <image class="img3" onTap="wlocation" mode="scaleToFill" src="../../assets/zuobiao.png"/><text class="adress">山东省临沂市蒙阴县南环路西段</text>
+    <image onTap="alertPhone" mode="scaleToFill" class="iphone" src="../../assets/dianhua.png"/>
     </view>
 
   </view>
