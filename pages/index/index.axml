@@ -1,0 +1,32 @@
+<!-- 小程序收藏组件，更多高级用法请参考文档：https://docs.alipay.com/mini/component/component-favorite -->
+<!-- <favorite>收藏小程序，下次使用更方便</favorite> -->
+
+<view class="page-index">
+
+  <view class="unlockimg">
+    <image class="img1"mode="scaleToFill" src="../../assets/store_.pic.jpg"/>
+  </view>
+
+  <view class="unlock-info">
+   <label class="label1">老王开锁0539--4444448</label>
+   <view class="lockdate"> <image class="img2" mode="scaleToFill" src="../../assets/shizhong.png"/><text>最晚营业至 22:00</text></view>
+    <view class="locksadress"> <image class="img3" mode="scaleToFill" src="../../assets/zuobiao.png"/><text class="adress">山东省临沂市蒙阴县南环路西段</text>
+    <image mode="scaleToFill" class="iphone" src="../../assets/dianhua.png"/>
+    </view>
+
+  </view>
+
+    <view class="main-business">
+
+      
+<text class="title">主营业务\n</text>
+<text>
+  1，蒙阴锁王开锁4444448 \n
+2，汽车遥控钥匙 \n
+3，发动机电脑编程 \n
+4，仪表调校 \n
+
+</text>
+    </view>
+
+</view>
